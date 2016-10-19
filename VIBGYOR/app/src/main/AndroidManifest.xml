@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acadgild.anup.vibgyor">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/vibgyour_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".red" >
+            <intent-filter>
+                <action android:name="android.intent.action.clickred" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".orange" >
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickorange" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".yellow" >
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickyellow" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".green" >
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickgreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".blue" >
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickblue" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".indigo">
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickindigo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".violet">
+            <intent-filter>
+                <action android:name="com.acadgild.anup.vibgyor.clickviolet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+   </application>
+
+</manifest>
